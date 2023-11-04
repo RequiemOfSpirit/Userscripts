@@ -2,7 +2,7 @@
 // @name         Crunchyroll video overlay visibility toggle
 // @namespace    https://github.com/RequiemOfSpirit
 // @version      1.0.0
-// @description  Adds an event listener on the letter `h` to toggle video overlay visibility
+// @description  Adds an event listener on the Crunchyroll video player on the letter `h` to toggle video overlay visibility
 // @author       RequiemOfSpirit
 // @homepage     https://github.com/RequiemOfSpirit/Userscripts
 // @match        https://static.crunchyroll.com/vilos-*
