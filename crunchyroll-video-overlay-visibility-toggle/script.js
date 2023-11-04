@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Crunchyroll video overlay visibility toggle
 // @namespace    https://github.com/RequiemOfSpirit
-// @version      1.0.0
+// @version      1.0.1
 // @description  Adds an event listener on the Crunchyroll video player on the letter `h` to toggle video overlay visibility
 // @author       RequiemOfSpirit
 // @homepage     https://github.com/RequiemOfSpirit/Userscripts
@@ -19,6 +19,6 @@
       return;
     }
 
-    overlay.style.opacity = (overlay.style.opacity === '0') ? 1 : 0;
+    overlay.style.visibility = (overlay.style.visibility === 'hidden') ? 'visible' : 'hidden';
   });
 })();
